@@ -5,44 +5,62 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login">
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
         android:text="Firebase Authenticater"
         android:textColor="#02131B"
         android:textSize="25sp"
         app:fontFamily="@font/amita"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="83dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099" />
 
     <EditText
         android:id="@+id/fullName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
         android:ems="10"
         android:hint="Email"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="253dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364" />
 
     <EditText
         android:id="@+id/passWord"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="343dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/loginButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
         android:text="login"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="441dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
